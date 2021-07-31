@@ -3,13 +3,17 @@ import random
 
 def abrir():
 
-	cena_aleatoria = random.choice(["Sopa de pollo","Sopa de cebada","Sopa de platano","Pechuga con ensalada","Sopa de costilla","Arepas con huevo","Costillas bbq","Sopa de pastas"])
+	cena_aleatoria = random.choice(["arepas de auyama","Sopa de pollo","Sopa de cebada","Sopa de platano","Pechuga con ensalada","Sopa de costilla","Arepas con huevo","Costillas bbq","Sopa de pastas"])
 
 
-	comida_aleatoria = random.choice(["chuleta con papas","chuleta con papas","ensalada fria","Ensalada con pechuga","Gulash","albondigas","Ensalada con atun","Carne desmechada","Lasagna","Lantejas","Frijoles con carne","Pasta a la boloñesa","Verduras al wok","chuleta con ensalada y papa chorreada"])
+	comida_aleatoria = random.choice(["sopa de espinaca ","pasta de zuccini","strogganof de pollo","chuleta con papas","ensalada fria","Ensalada con pechuga","Gulash","albondigas","Ensalada con atun","Carne desmechada","Lasagna","Lantejas","Frijoles con carne","Pasta a la boloñesa","Verduras al wok","chuleta con ensalada y papa chorreada"])
 
 
-	viernes_aleatorio = random.choice(["stroganof de pollo","stroganof de lomo","Bandeja paisa","Pollo a la broster","Porquerias","Arepas con huevo","Croissant de chocolate","Cerdo falso","Domplins","Perros calientes","Hamburguesas"])
+	viernes_aleatorio = random.choice(["strogganof de pollo","strogganof de lomo","Bandeja paisa","Pollo a la broster","Porquerias","Arepas con huevo","Croissant de chocolate","Cerdo falso","Domplins","Perros calientes","Hamburguesas"])
+
+	
+
+
 
 	print("Hola bienvenido")
 
